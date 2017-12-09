@@ -1,0 +1,31 @@
+.form-group {
+	margin-bottom: 35px; }
+
+.form-label {
+	margin-bottom: 8px;
+	font-weight: 400;
+	color: #696969;
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 24px; }
+
+.form-control {
+	background-color: white;
+	border: 1px solid #bdbdbd;
+	width: 100%;
+	box-sizing: border-box;
+	height: 58px;
+	font-size: 18px;
+	font-size: 1.125rem;
+	padding: 10px 15px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s; }
+.form-control:focus {
+	border-color: #000; }
+
+textarea.form-control {
+	resize: vertical;
+	height: 236px; }
+@media screen and (min-width: 768px) {
+	textarea.form-control {
+		height: 308px; } }

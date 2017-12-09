@@ -1,0 +1,40 @@
+.step-unit {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-moz-flex-direction: horizontal;
+	-ms-flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	-ms-flex-flow: wrap;
+	flex-flow: wrap;
+}
+
+.step-unit .step-number {
+	width: 50px;
+}
+
+.step-unit .step-number span {
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: relative;
+}
+
+.step-unit .step-number span {
+	line-height: 50px;
+	text-align: center;
+	background-color: #fdf951;
+	font-weight: 100;
+	color: #333;
+	font-size: 19px;
+	font-size: 1.1875rem;
+	border-radius: 50%;
+}
+
+.step-unit .step-value {
+	margin: auto 0;
+	margin-left: 10px;
+	width: calc(100% - 60px);
+}

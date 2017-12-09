@@ -1,0 +1,79 @@
+.contcts-coordinates {
+	font-size: 0;
+
+
+}
+
+.contcts-coordinates ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+.contcts-coordinates ul li {
+	color: #d3d3d3;
+	display: flex;
+}
+
+.contcts-coordinates__text{
+	margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.contcts-coordinates ul li {
+		display: inline-block;
+		width: 33%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.contcts-coordinates ul li {
+		display: block;
+		width: auto;
+		text-align: left;
+	}
+
+	.contcts-coordinates__text{
+		margin-left: 20px;
+	}
+}
+
+.contcts-coordinates ul li + li {
+	margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	.contcts-coordinates ul li + li {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.contcts-coordinates ul li + li {
+		margin-top: 15px;
+	}
+}
+
+.contcts-coordinates ul li a,
+.contcts-coordinates ul li span {
+	text-decoration: none;
+	color: #d3d3d3;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contcts-coordinates .icon-cell {
+	display: inline-block;
+	vertical-align: middle;
+	width: 28px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.contcts-coordinates__text{
+		display: block !important;
+		margin-left: 0;
+	}
+}

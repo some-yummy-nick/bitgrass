@@ -1,0 +1,45 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+	box-sizing: border-box;
+}
+
+.btn:hover {
+	text-decoration: none;
+}
+
+.btn_default {
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	background: #2275d4;
+	color: #fff;
+	padding: 20px 58px;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 15px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.btn_default:hover {
+	background: #0b56ac;
+	color: #ffffff;
+}
+
+.btn_default-sm {
+	padding: 18px 38px;
+}
+
+.btn_block {
+	display: block;
+	width: 100%;
+}

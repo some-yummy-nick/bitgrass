@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<title>Example</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=yes">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<style>
+		@font-face {
+						font-family: "Geometria";
+						src: url('css/fonts/Geometria/Geometria.woff2') format('woff2'),
+						url('css/fonts/Geometria/Geometria.woff') format('woff'),
+						url('css/fonts/Geometria/Geometria.ttf') format('truetype');
+						font-weight: normal;
+						font-style: normal;
+						font-display: optional;
+				}
+
+				.font-marketsans .geometria {
+						font-family: "Geometria", "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif
+				}
+	</style>
+	<!--загрузка кастомных шрифтов -->
+
+	<script>
+		var useCustomFont = ('fontDisplay' in document.documentElement.style) ||
+		  (localStorage && localStorage.getItem('ebay-font'));
+		if (useCustomFont) {
+			document.documentElement.classList.add('font-marketsans');
+		}
+	</script>
+	<!--загрузка кастомных шрифтов -->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" id="js-wrapper">
+
+		<div class="header">
+
+			<div class="header__top">
+				<div class="header__inner">
+
+					<div class="logo">
+						<a href="#" class="logo__link">
+							<img src="images/logo.png" alt="" class="logo__pic">
+						</a>
+					</div>
+					<!-- /.logo -->
+
+				</div>
+				<!-- /.header__inner -->
+			</div>
+			<!-- /.header__top -->
+
+			<div class="header__bottom">
+				<div class="header__inner header__inner_bottom">
+
+
+
+					<nav class="menu">
+						<div class="menu__burger" id="js-menu__burger">
+							<span></span>
+						</div>
+						<div class="menu__inner">
+							<ul class="menu__list">
+
+								<li class="menu__item">
+									<a href="#" class="menu__link">Пункт 1</a>
+								</li>
+								<!-- /.menu__item -->
+
+								<li class="menu__item">
+									<a href="#" class="menu__link">Пункт 2</a>
+								</li>
+								<!-- /.menu__item -->
+
+								<li class="menu__item">
+									<a href="#" class="menu__link">Пункт 3</a>
+								</li>
+								<!-- /.menu__item -->
+
+								<li class="menu__item">
+									<a href="#" class="menu__link">Пункт 4</a>
+								</li>
+								<!-- /.menu__item -->
+
+								<li class="menu__item">
+									<a href="#" class="menu__link">Пункт 5</a>
+								</li>
+								<!-- /.menu__item -->
+
+							</ul>
+							<!-- /.menu__list -->
+						</div>
+					</nav>
+					<!-- /.menu -->
+
+				</div>
+				<!-- /.header__inner -->
+			</div>
+			<!-- /.header__bottom -->
+
+		</div>
+		<!-- /.header -->
+
+		<div class="middle">
+			<div class="middle__container">
+
+				<div class="content">
+					<!-- WORKAREA -->
+
+					<div class="breadcrumbs">
+						<a href="#" class="breadcrumbs__link">Главная</a>
+						<span class="breadcrumbs__sep">/</span>
+						<span class="breadcrumbs__text">Новости</span>
+					</div>
+					<!-- /.breadcrumbs -->
+
+					<div class="title">Навигация</div>
+
+					<label class="checkbox search__checkbox">
+						<input type="checkbox" class="checkbox__input">
+						<span class="checkbox__icon"></span>
+						<span class="checkbox__text">По сайту</span>
+					</label>
+					<!-- /.checkbox -->
+
+					<div class="pagination">
+						<a href="#" class="pagination__prev"></a>
+						<a href="#" class="pagination__item">1</a>
+						<a href="#" class="pagination__item">2</a>
+						<a href="#" class="pagination__item">3</a>
+						<a href="#" class="pagination__more">...</a>
+						<a href="#" class="pagination__item">17</a>
+						<a href="#" class="pagination__next"></a>
+					</div>
+					<!-- /.pagination -->
+
+					<div class="icon icon_ambulance"></div>
+
+					<div class="icon icon_auth"></div>
+
+
+					<!-- /.icon icon_auth -->
+
+					<!-- END WORKAREA -->
+				</div>
+				<!-- /.content -->
+
+			</div>
+			<!-- /.middle__container -->
+		</div>
+		<!-- /.middle -->
+
+	</div>
+	<!-- /.wrapper -->
+
+	<div class="footer" id="js-footer">
+		<div class="footer__inner">
+
+			<div class="footer__top">
+
+
+
+				<nav class="menu-footer">
+					<ul class="menu-footer__list">
+
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Пункт 1</a>
+						</li>
+						<!-- /.menu-footer__item -->
+
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Пункт 2</a>
+						</li>
+						<!-- /.menu-footer__item -->
+
+						<li class="menu-footer__item">
+							<a href="#" class="menu-footer__link">Пункт 3</a>
+						</li>
+						<!-- /.menu-footer__item -->
+
+					</ul>
+					<!-- /.menu-footer__list -->
+				</nav>
+				<!-- /.menu-footer -->
+
+
+
+				<div class="footer-social">
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-vk" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-youtube" aria-hidden="true"></i>
+					</a>
+
+					<a href="#" class="footer-social__link">
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+
+				</div>
+				<!-- /.footer-social -->
+
+			</div>
+			<div class="footer__bottom">
+
+				<div class="footer__copy">
+					© Copyright 1998-2017
+				</div>
+
+				<div class="footer__block">
+					<a href="#" class="footer__link">Политика конфиденциальности</a>
+					<a href="#" class="footer__link">Политика cookie</a>
+				</div>
+
+				<div class="footer__develop geometria">
+					<a href="#">
+						Создание и продвижение сайта
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- /.footer__inner -->
+	</div>
+	<!-- /.footer -->
+
+	<!--<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')
+	</script>
+
+	<script type="text/javascript" src="js/script.min.js"></script>
+
+	<script src="https://yastatic.net/browser-updater/v1/script.js" charset="utf-8"></script>
+	<script>
+		var yaBrowserUpdater = new ya.browserUpdater.init({
+			"lang": "ru",
+			"browsers": {
+				"yabrowser": "15.12",
+				"chrome": "54",
+				"ie": "11",
+				"opera": "41",
+				"safari": "8",
+				"fx": "49",
+				"iron": "35",
+				"flock": "Infinity",
+				"palemoon": "25",
+				"camino": "Infinity",
+				"maxthon": "4.5",
+				"seamonkey": "2.3"
+			},
+			"theme": "yellow"
+		});
+	</script>
+	<link rel="stylesheet" href="css/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+</body>
+
+</html>

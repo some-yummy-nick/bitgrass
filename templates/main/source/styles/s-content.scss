@@ -1,0 +1,43 @@
+.s-content {
+	padding-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+	.s-content {
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.s-content {
+		padding-bottom: 42px;
+	}
+}
+
+.s-content_colored {
+	background-color: #f3f3f3;
+	padding-top: 0;
+	padding-bottom: 0;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+	.s-content_colored {
+		padding-top: 44px;
+		padding-bottom: 44px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.s-content_colored {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		overflow: visible;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.s-content_lg-dg {
+		padding-bottom: 80px;
+	}
+}

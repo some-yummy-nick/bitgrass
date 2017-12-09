@@ -1,0 +1,49 @@
+.col-benefit {
+	box-sizing: border-box;
+	border: 1px solid #c5c5c5;
+	margin-bottom: 20px;
+	padding: 25px 22px;
+	color: #333;
+}
+
+@media screen and (min-width: 768px) {
+	.col-benefit {
+		padding: 34px 45px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.col-benefit {
+		width: calc(33% - 27px);
+		padding: 25px 44px;
+		margin-bottom: 0;
+		margin-left: 27px;
+	}
+}
+
+.col-benefit ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.col-benefit ul li {
+	position: relative;
+	padding-left: 25px;
+	font-weight: 500;
+}
+
+.col-benefit ul li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 6px;
+	background: url("../images/icons/bullet-check.png") no-repeat;
+	background-size: cover;
+	width: 12px;
+	height: 9px;
+}
+
+.col-benefit ul li + li {
+	margin-top: 12px;
+}

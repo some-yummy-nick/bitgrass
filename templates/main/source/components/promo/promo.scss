@@ -1,0 +1,23 @@
+.promo{
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	min-height: 390px;
+	background: url(../images/promo-bg.jpg);
+	background-size: cover;
+	color: #fff;
+
+	&__text{
+		text-align: center;
+	}
+
+	&__title{
+		font-size: 36px;
+		line-height: 51px;
+		text-transform: uppercase;
+	}
+
+	&__small{
+		font-size: 18px;
+	}
+}

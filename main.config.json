@@ -1,0 +1,94 @@
+{
+	"config": {
+		"src": {
+			"server": "./templates/main/dev/",
+			"dev": {
+				"dest": "./templates/main/dev/",
+				"files": "./templates/main/dev/**/*",
+				"js": {
+					"dest": "./templates/main/dev/js/"
+				},
+				"css": {
+					"dest": "./templates/main/dev/css/"
+				},
+				"fonts": {
+					"dest": "./templates/main/dev/css/fonts/"
+				},
+				"images": {
+					"dest": "./templates/main/dev/images/"
+				},
+				"ajax": {
+					"dest": "./templates/main/dev/ajax/"
+				}
+			},
+			"build": {
+				"dest": "./templates/main/build/"
+			},
+			"source": {
+				"js": {
+					"copy": [
+						"./templates/main/source/js/libs/jquery-3.2.1.min.js",
+						"./templates/main/source/js/users/map.js"
+					],
+					"src": [
+						"./templates/main/source/js/**/*.js",
+						"!./templates/main/source/js/libs/jquery-3.2.1.min.js",
+						"!./templates/main/source/js/users/map.js"
+					]
+				},
+				"svg": {
+					"src": "./templates/main/source/images/svg-icons/*.svg",
+					"dest": "./templates/main/source/svg/icons/",
+					"sprite": {
+						"src": "./templates/main/source/images/svg-sprites/*.svg",
+						"dest": "./templates/main/source/svg/sprites/"
+					}
+				},
+				"css": {
+					"src": "./templates/main/source/styles/style.scss"
+				},
+				"html": {
+					"src": "./templates/main/source/pages/*.html"
+				},
+				"components": "./templates/main/source/components/",
+				"fonts": {
+					"src": "./templates/main/source/fonts/**/*"
+				},
+				"images": {
+					"src": [
+						"./templates/main/source/images/**/*.+(jpg|png|jpeg|gif|svg)",
+						"!./templates/main/source/images/svg-icons/**/*.svg"
+					]
+				},
+				"ajax": {
+					"src": "./templates/main/source/ajax/*.html"
+				}
+			},
+			"watch": {
+				"html": [
+					"./templates/main/source/pages/*.html",
+					"./templates/main/source/components/**/*.html"
+				],
+				"ajax": [
+					"./templates/main/source/ajax/*.html",
+					"./templates/main/source/components/**/*.html"
+				],
+				"css": [
+					"./templates/main/source/components/**/*.scss",
+					"./templates/main/source/styles/style.scss",
+					"./templates/main/source/styles/**/*.scss",
+					"./templates/main/source/js/"
+				],
+				"js": [
+					"./templates/main/source/js/**/*.js"
+				],
+				"images": [
+					"./templates/main/source/images/**/*"
+				]
+			}
+		},
+		"compress": {
+			"js": false
+		}
+	}
+}

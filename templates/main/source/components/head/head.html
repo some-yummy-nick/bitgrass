@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+		<title>Bitgrass</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=yes">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<style>
+				@font-face {
+						font-family: ITCAvantGardeGot;
+						src: url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotMed.woff2') format('woff2'),
+						url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotMed.woff') format('woff'),
+						url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotMed.ttf') format('truetype');
+						font-weight: 500;
+						font-style: normal;
+						font-display: optional;
+				}
+
+				@font-face {
+						font-family: ITCAvantGardeGot;
+						src: url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotBoo.woff2') format('woff2'),
+						url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotBoo.woff') format('woff'),
+						url('css/fonts/ITCAvantGardeGot/ITCAvantGardeGotBoo.ttf') format('truetype');
+						font-weight: 400;
+						font-style: normal;
+						font-display: optional;
+				}
+
+				.font-marketsans body {
+						font-family: "ITCAvantGardeGot", Helvetica, Arial, Roboto, sans-serif;
+				}
+		</style><!--загрузка кастомных шрифтов -->
+
+		<script>
+		var useCustomFont = ('fontDisplay' in document.documentElement.style) ||
+		  (localStorage && localStorage.getItem('ebay-font'));
+		if (useCustomFont) {
+			document.documentElement.classList.add('font-marketsans');
+		}
+		</script><!--загрузка кастомных шрифтов -->
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>

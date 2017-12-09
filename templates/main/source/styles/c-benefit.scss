@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+	.c-benefits {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-moz-flex-direction: horizontal;
+		-ms-flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		flex-direction: row;
+		-ms-flex-flow: wrap;
+		flex-flow: wrap;
+		margin-left: -27px; } }
